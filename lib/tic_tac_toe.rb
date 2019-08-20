@@ -50,7 +50,7 @@ class TicTacToe
       move(user_input, token)
       display_board
     else
-      put "Please enter 1-9:"
+      turn
   end
 end
 
