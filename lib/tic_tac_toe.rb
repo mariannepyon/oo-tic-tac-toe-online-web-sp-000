@@ -52,6 +52,7 @@ class TicTacToe
     else
       put "Please enter 1-9:"
   end
+end
 
   def valid_move?(user_input)
     if user_input.between?(0,8) && !position_taken?(user_input)
